@@ -73,9 +73,9 @@ namespace Function2
         static int Percent(int value, int minValue, int maxValue)
         {
             int returnValue ;
-            double Percent = 100;
-            double tempNumber = (Convert.ToDouble(value) / Convert.ToDouble(maxValue - minValue)) * Percent;
-            returnValue = Convert.ToInt32(maxValue / Percent * tempNumber);
+            double percent = 100;
+            double tempNumber = (Convert.ToDouble(value) / Convert.ToDouble(maxValue - minValue)) * percent;
+            returnValue = Convert.ToInt32(maxValue / percent * tempNumber);
             return returnValue;
         }
     }
